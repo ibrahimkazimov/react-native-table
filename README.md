@@ -1,5 +1,3 @@
-# react-native-table
-
 React native package for creating tables.
 
 ## Installation
@@ -11,7 +9,7 @@ npm install simple-react-native-tables
 ## Usage
 
 ```js
-import { Table, Tr, Td, Head, Body } from 'react-native-table';
+import { Table, Tr, Td, Head, Body } from 'simple-react-native-tables';
 
 <ScrollView
     style={{display: 'flex', flexDirection: 'column'}}
