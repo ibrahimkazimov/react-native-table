@@ -6,7 +6,7 @@ import { TableProps } from '../interfaces';
 
 function Head({children, style, widths, ...rest}: TableProps) {
   return (
-    <View {...rest} style={[{ padding: "0.75rem", flexDirection: "column" }, style]}>
+    <View {...rest} style={[{ padding: 12, flexDirection: "column" }, style]}>
       {React.Children.map(children, child => {
         return React.cloneElement(child as React.ReactElement<any>, {
           widths,

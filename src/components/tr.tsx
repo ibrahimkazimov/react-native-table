@@ -9,7 +9,7 @@ function Tr({ children, style, widths, ...rest }: TableProps) {
         {React.Children.map(children, (child, idx) => {
           
           return React.cloneElement(child as React.ReactElement<any>, {
-            width: widths?[idx]: undefined
+            width: widths[idx]
           })
 
         })}

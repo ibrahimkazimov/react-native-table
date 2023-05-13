@@ -18,18 +18,18 @@ import { Table, Tr, Td, Head, Body } from 'simple-react-native-tables';
         <Table widths={[150, 150, 150]}>
             <Head style={{backgroundColor: '#F9FAFB'}}>
                 <Tr>
-                    <Td className={'px-6 py-3'}>
-                        <Text className="text-xs font-bold text-gray-700 uppercase bg-gray-50">
+                    <Td style={{paddingHorizontal: 24, paddingVertical: 12}}>
+                        <Text style={{fontSize: 12, fontWeight: 700, textTransform: 'uppercase', color: "#374151"}} >
                         First Name
                         </Text>
                     </Td>
-                    <Td className={'px-6 py-3'}>
-                        <Text className="text-xs font-bold text-gray-700 uppercase bg-gray-50">
+                    <Td style={{paddingHorizontal: 24, paddingVertical: 12}}>
+                        <Text style={{fontSize: 12, fontWeight: 700, textTransform: 'uppercase', color: "#374151"}}>
                         Last Name
                         </Text>
                     </Td>
-                    <Td className={'px-6 py-3'}>
-                        <Text className="text-xs font-bold text-gray-700 uppercase bg-gray-50">
+                    <Td style={{paddingHorizontal: 24, paddingVertical: 12}}>
+                        <Text style={{fontSize: 12, fontWeight: 700, textTransform: 'uppercase', color: "#374151"}}>
                         Phone Number
                         </Text>
                     </Td>
@@ -37,37 +37,37 @@ import { Table, Tr, Td, Head, Body } from 'simple-react-native-tables';
                 </Tr>
             </Head>
             <Body>
-                <Tr className={'bg-white border-b border-gray-300'}>
-                    <Td className={'px-6 py-4'}>
-                        <Text className="text-sm">
+                <Tr style={{borderBottomColor: '#d1d5db', borderBottomWidth: 1}}>
+                    <Td style={{paddingHorizontal: 24, paddingVertical: 16}}>
+                        <Text style={{fontSize: 14}}>
                             Ibrahim
                         </Text>
                     </Td>
-                    <Td className={'px-6 py-4'}>
-                        <Text className="text-sm">
+                    <Td style={{paddingHorizontal: 24, paddingVertical: 16}}>
+                        <Text style={{fontSize: 14}}>
                             Kazımov
                         </Text>
                     </Td>
-                     <Td className={'px-6 py-4'}>
-                        <Text className="text-sm">
+                     <Td style={{paddingHorizontal: 24, paddingVertical: 16}}>
+                        <Text style={{fontSize: 14}}>
                         +9999999999
                         </Text>
                     </Td>
             
                 </Tr>
-                <Tr className={'bg-white border-b border-gray-300'}>
-                    <Td className={'px-6 py-4'}>
-                        <Text className="text-sm">
+                <Tr style={{borderBottomColor: '#d1d5db', borderBottomWidth: 1}}>
+                    <Td style={{paddingHorizontal: 24, paddingVertical: 16}}>
+                        <Text style={{fontSize: 14}}>
                             John
                         </Text>
                     </Td>
-                    <Td className={'px-6 py-4'}>
-                        <Text className="text-sm">
+                    <Td style={{paddingHorizontal: 24, paddingVertical: 16}}>
+                        <Text style={{fontSize: 14}}>
                             Cena
                         </Text>
                     </Td>
-                     <Td className={'px-6 py-4'}>
-                        <Text className="text-sm">
+                     <Td style={{paddingHorizontal: 24, paddingVertical: 16}}>
+                        <Text style={{fontSize: 14}}>
                         +123231123
                         </Text>
                     </Td>
